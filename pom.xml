@@ -181,12 +181,12 @@
 		</dependency>
 	</dependencies>
 	<name>dimit</name>
-	<url>https://github.com/dzh/dimit</url>
+	<url>https://github.com/Jttoal/dimit</url>
 	<scm>
-		<url>https://github.com/dzh/dimit.git</url>
+		<url>https://github.com/Jttoal/dimit</url>
 	</scm>
 	<issueManagement>
-		<url>https://github.com/dzh/dimit/issues</url>
+		<url>https://github.com/Jttoal/dimit/issues</url>
 		<system>GitHub Issue Management</system>
 	</issueManagement>
     <licenses>
