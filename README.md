@@ -8,11 +8,11 @@ dimit
 ```xml
     <dependencies>
         <dependency>
-            <groupId>io.github.dzh</groupId>
+            <groupId>io.github.yunpian</groupId>
             <artifactId>dimit-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.github.dzh</groupId>
+            <groupId>io.github.yunpian</groupId>
             <artifactId>dimit-zk</artifactId>
         </dependency>
     </dependencies>

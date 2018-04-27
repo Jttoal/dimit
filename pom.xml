@@ -2,9 +2,9 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.github.dzh</groupId>
+	<groupId>io.github.yunpian</groupId>
 	<artifactId>dimit</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -15,15 +15,15 @@
 
 	<profiles>
 		<profile>
-			<id>maven2-release</id>
+			<id>taovip-release</id>
 			<distributionManagement>
 				<snapshotRepository>
-					<id>oss</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<id>taovip</id>
+					<url>http://nexus.taovip.com/nexus/content/repositories/snapshots</url>
 				</snapshotRepository>
 				<repository>
-					<id>oss</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+					<id>taovip</id>
+					<url>http://nexus.taovip.com/nexus/content/repositories/releases</url>
 				</repository>
 			</distributionManagement>
 			<build>

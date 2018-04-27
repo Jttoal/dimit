@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.github.dzh</groupId>
+		<groupId>io.github.yunpian</groupId>
 		<artifactId>dimit</artifactId>
-		<version>0.0.4-SNAPSHOT</version>
+		<version>0.0.4</version>
 	</parent>
 	<artifactId>dimit-admin</artifactId>
 
@@ -22,7 +22,7 @@
 			<version>2.8.2</version>
 		</dependency>
 		<dependency>
-			<groupId>io.github.dzh</groupId>
+			<groupId>io.github.yunpian</groupId>
 			<artifactId>dimit-zk</artifactId>
 			<version>${project.version}</version>
 		</dependency>
